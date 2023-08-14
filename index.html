@@ -514,30 +514,32 @@
             </div>
           </div>
 
-          <div class="modal-wraps">
-            <label for="user-com" class="modal-label">Comment</label>
+          <div class="modal-wrap-comm">
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
-            name="user-com"
-            id="user-com"
+            name="user-comment"
+            id="user-comment"
             class="modal-comment"
             placeholder="Text input"
             ></textarea>
           </div>
 
-          <input
-           type="checkbox" 
-           id="policy" 
-           name="policy" 
-           value="true"
-           class="modal-check visually-hidden">
-          <label for="policy" class="modal-check-text">
-            <span>
-              <svg class="check-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-Vector"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the <a href="" class="modal-check-link">Privacy Policy</a>
-          </label>
+          <div class="modal-wrap-check">
+            <input
+             type="checkbox" 
+             id="user-privacy" 
+             name="user-privacy" 
+             value="true"
+             class="modal-check visually-hidden">
+            <label for="user-privacy" class="modal-check-text">
+              <span class="modal-check-icon">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the <a href="" class="modal-check-link">Privacy Policy</a>
+            </label>
+          </div>
 
           <button type="submit" class="modal-form-btn" disabled>Send</button>
         </form>
