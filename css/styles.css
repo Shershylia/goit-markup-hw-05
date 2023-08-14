@@ -791,13 +791,13 @@ resize: none;
 }
 
 .modal-check-icon {
+  display: inline-flex;
 }
 
 
 .modal-check-text span {
   width: 16px;
     height: 16px;
-    display: inline-flex;
    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
    border-radius: 2px;
    margin-right: 8px;
