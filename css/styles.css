@@ -791,6 +791,7 @@ resize: none;
 }
 
 .modal-check-icon {
+  display: inline-flex;
 }
 
 
@@ -800,7 +801,6 @@ resize: none;
    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
    border-radius: 2px;
    margin-right: 8px;
-   display: inline-flex;
    align-items: center;
    justify-content: center;
    fill: transparent;
